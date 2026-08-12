@@ -1,0 +1,23 @@
+{
+  "project": "智航语义流",
+  "repository_name": "大创",
+  "version": "0.1.0",
+  "snapshot_date": "2026-08-12",
+  "vision_model": "mobilenetv4_conv_small.e2400_r224_in1k",
+  "vision_classes": 5,
+  "dataset_images": 56141,
+  "implemented": [
+    "MobileNetV4 training",
+    "image semantic-token inference",
+    "video-frame semantic-token inference",
+    "TensorRT INT8 engine builder",
+    "TensorRT single-image inference"
+  ],
+  "planned": [
+    "SenseVoice audio inference integration",
+    "TLV and CRC packet codec",
+    "ZeroMQ ship-to-shore transport",
+    "multimodal fusion"
+  ]
+}
+

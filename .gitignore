@@ -1,0 +1,36 @@
+# Datasets and user-provided media
+dataset/
+datasets/
+calibration_images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.mp4
+*.wav
+
+# Model artifacts
+models/
+reports/
+*.pth
+*.pt
+*.onnx
+*.engine
+*.cache
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Local secrets and machine-specific files
+.env
+.env.*
+*.local
+gh-*.txt
+
